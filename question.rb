@@ -9,9 +9,6 @@ class Question
     sym = SYMS.to_a.sample
     @answer = num1.send(sym[1], num2)
     @question = "What is " + num1.to_s + sym[0] + num2.to_s + "?"
-    binding.pry
   end
-
-  def
 
 end

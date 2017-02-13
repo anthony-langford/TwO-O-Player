@@ -1,13 +1,12 @@
 class Player
   attr_reader :name
-  attr_reader :score
+  attr_accessor :score
+  attr_accessor :turn
 
-  def initialize(name)
+  def initialize(name = "Player 1")
     @name = name
     @score = 0
+    @turn = false
   end
-
-  player1 = Player.new('tony')
-  player2 = Player.new('god')
 
 end
