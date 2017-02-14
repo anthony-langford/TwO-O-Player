@@ -1,6 +1,7 @@
 class Question
   attr_reader :question
   attr_reader :answer
+
   SYMS = { " plus " => :+, " minus " => :-, " multipled by " => :*, " divided by " => :/ }
 
   def initialize
