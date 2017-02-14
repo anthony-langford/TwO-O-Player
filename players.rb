@@ -1,4 +1,4 @@
-class Player
+class Players
   attr_reader :name
   attr_accessor :score
   attr_accessor :turn
