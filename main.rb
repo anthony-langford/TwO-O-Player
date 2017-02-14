@@ -5,6 +5,7 @@ require_relative './players.rb'
 
 game = Game.new
 game.turn
+
 # @player1 = Players.new(gets.chomp)
 # @player2 = Players.new(gets.chomp)
 
