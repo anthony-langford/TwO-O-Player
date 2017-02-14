@@ -3,7 +3,7 @@ class Players
   attr_accessor :score
   attr_accessor :turn
 
-  def initialize(name = "Player 1")
+  def initialize(name = "Player")
     @name = name
     @score = 0
     @turn = false
